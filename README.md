@@ -1,1 +1,2 @@
-# berkely-earth-surface-temperature-prediction
+# Prediction of Earth Surface Temperature
+This project explores the prediction of the future earth surface temperature based on the [Kaggle Berkeley Earth Surface Temperature Study dataset](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data). First, the data is explored and 4 countries temperature are compared based on Dynamic Time Warping (DTW). Second, the stationarity of the yearly temperature changes are evaluated by means of the Dickey-Fuller test. Before the prediction with the ARIMA model, trends and seasons are removed from the time series data by decomposition and differencing.
